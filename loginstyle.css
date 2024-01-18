@@ -1,0 +1,142 @@
+*{
+  margin: 0px;
+  font-family: 'Roboto';
+}
+.container{
+  display: grid;
+  grid-template-columns: 480px 1fr; 
+}
+.left-section{
+  height: 815px;
+  /*border: 1px solid black;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.innond-container{
+  /*border: 1px solid black;*/
+  height: 760px;
+  width: 322px;
+}
+.login{
+  font-size: 54px;
+  font-weight: bold;
+  color: #42505C;
+  margin-top: 50px;
+}
+.description{
+  width: 300px;
+  margin-top: 25px;
+  line-height: 1.8;
+}
+.description p{
+  font-size: 14px;
+  font-weight: 400px;
+  color: #404040;
+}
+.line{
+  margin-top: 20px;
+  color: rgb(172, 172, 172);
+}
+.bsdk{
+  color: #4743E0;
+  font-weight: bold;
+}
+.space{
+  color: white;
+}
+.credential-section{
+  /*border: 1px solid black;*/
+  margin-top: 30px;
+  width: 322px;
+  height: 130px;
+}
+.credential-section p{
+  font-size: 12px;
+  font-weight: 400;
+  color: #333333;
+}
+.login-space{
+  margin-top: 8px;
+}
+.username,
+.password{
+  display: block;
+  width: 265px;
+  padding: 10px;
+  padding-left: 40px;
+  border-radius: 0px;
+  border: 0.5px solid rgb(179, 179, 179);
+  outline: none;
+}
+
+.icon{
+  /*border: 1px solid;*/
+  position: absolute;
+  padding: 10px;
+  padding-left: 15px;
+  color: #999999;
+}
+.login-space p{
+  font-size: 12px;
+  margin-top: 11px;
+  color: #4743E0;
+  font-weight: 400px;
+}
+.right-section{
+  background-color: #ecf3ff;
+  height: 815px;
+}
+.innond-line{
+  margin-top: 15px;
+  color: rgb(172, 172, 172);
+}
+.submittion{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 45px;
+}
+.re{
+  font-size: 14px;
+}
+.re span{
+  color: white;
+}
+.submit{
+  margin-left: 80px;
+}
+.submit button{
+  width: 80px;
+  height:35px;
+  border: none;
+  color: white;
+  background-color: #4743E0;
+  cursor: pointer;
+}
+.create{
+  margin-top: 180px;
+  /*border: 1px solid black;*/
+}
+.sentence{
+  text-align: center;
+  font-size: 12px;
+  color: rgb(163, 163, 163);
+}
+.innod-sentence{
+  margin-top: 10px;
+  text-align: center;
+  font-size: 12px;
+  color: #4743E0;
+  cursor: pointer;
+}
+.checkboxx{
+  margin-top: 10px;
+}
+.right-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cover{
+  mix-blend-mode: multiply;
+}

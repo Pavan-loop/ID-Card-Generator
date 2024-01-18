@@ -1,0 +1,124 @@
+*{
+  margin: 0px;
+  font-family: 'Roboto';
+}
+.main-box{
+  display: grid;
+  grid-template-columns: 850px 2fr;
+}
+.left-section{
+  /*border: 1px solid black;*/
+  height: 815px;
+  background-color: #FFFFFF;
+}
+.register{
+  /*border: 1px solid black;*/
+  height: 750px;
+  margin-top: 50px;
+  margin-left: 101px;
+}
+.heading-section{
+  /*border:1px solid black;*/
+  display: grid;
+  grid-template-columns: 350px 300px;
+  
+  column-gap: 40px;
+}
+.headding{
+  width: 279px;
+
+}
+.headding h2{
+  color: #42505C;
+  font-size: 54px;
+  line-height: 68px;
+}
+.description{
+  padding: 10px;
+  width: 300px;
+  line-height: 1.7;
+  color: #404040;
+  font-weight: 400;
+}
+.line{
+  color: gray;
+}
+.form-body{
+  /*border: 1px solid black;*/
+  height: 450px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.form-left{
+  /*border: 1px solid black;*/
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+/* .blood-group{
+  border: 1px solid black
+} */
+.first-name p,
+.programme p,
+.number p,
+.blood-group p{
+  font-size: 12px;
+  margin-top: 30px;
+  font-weight: 400;
+}
+.first-name input,
+.programme input,
+.number input,
+.blood-group input{
+  margin-top: 15px;
+  padding: 10px;
+  height: 25px;
+  width: 300px;
+  border-radius: 0px;
+  outline: none;
+  color: #333333;
+  border: 0.5px solid rgb(117, 117, 117);
+}
+.form-right{
+  /*border: 1px solid black;*/
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.idh{
+  color: #4743E0;
+  font-weight: bold;
+}
+.line2{
+  margin-top: 30px;
+  color: gray;
+}
+.register-button{
+  margin-top: 20px;
+  margin-left: 220px;
+}
+.last-sec{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.register-button button{
+  width: 97px;
+  height: 45px;
+  border-radius: 0px;
+  border: none;
+  font-size: 14;
+  font-weight: 400;
+  color: #FFFFFF;
+  background-color: #4743E0;
+}
+.check-box{
+  margin-top: 35px;
+}
+.space{
+  color: white;
+}
+.right-section{
+  background-color: #ecf3ff;
+  height: 815px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
